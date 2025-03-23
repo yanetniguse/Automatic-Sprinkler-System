@@ -1,4 +1,4 @@
-# Smart Irrigation System 🌱🚰
+# Automatic-Sprinkler-System 🌱🚰
 
 ## Overview
 The **Smart Irrigation System** is an intelligent water management solution using **Fuzzy Logic** to optimize irrigation based on real-time environmental inputs. It determines the required sprinkling level based on **soil moisture, temperature, and humidity**, ensuring efficient water usage and preventing overwatering.
@@ -15,8 +15,8 @@ Ensure you have Python installed (recommended version: **3.8+**).
 
 ### 1️⃣ Clone the Repository
 ```sh
- git clone https://github.com/yourusername/smart-irrigation.git
- cd smart-irrigation
+ git clone https://github.com/yanetniguse/Automatic-Sprinkler-System.git
+ cd Automatic-Sprinkler-System
 ```
 
 ### 2️⃣ Install Required Packages
