@@ -1,40 +1,49 @@
-# Automatic-Sprinkler-System 🌱🚰
+Smart Irrigation System 🌱🚰
 
-## Overview
-The **Smart Irrigation System** is an intelligent water management solution using **Fuzzy Logic** to optimize irrigation based on real-time environmental inputs. It determines the required sprinkling level based on **soil moisture, temperature, and humidity**, ensuring efficient water usage and preventing overwatering.
+Overview
 
-## Features ✅
-- **Fuzzy Logic-Based Decision Making** – Determines water sprinkling level based on input conditions.
-- **User-Friendly PyQt5 Interface** – Allows real-time input adjustments via sliders.
-- **Error Handling** – Ensures valid inputs are entered.
-- **Graphical Visualization** – Displays fuzzy membership functions using Matplotlib.
-- **Efficient Water Conservation** – Prevents excessive watering and promotes sustainability.
+The Smart Irrigation System is an intelligent water management solution using Fuzzy Logic to optimize irrigation based on real-time environmental inputs. It determines the required sprinkling level based on soil moisture, temperature, and humidity, ensuring efficient water usage and preventing overwatering.
 
-## Installation 🚀
-Ensure you have Python installed (recommended version: **3.8+**).
+Features ✅
 
-### 1️⃣ Clone the Repository
-```sh
+Fuzzy Logic-Based Decision Making – Determines water sprinkling level based on input conditions.
+
+User-Friendly PyQt5 Interface – Allows real-time input adjustments via sliders.
+
+Error Handling – Ensures valid inputs are entered.
+
+Graphical Visualization – Displays fuzzy membership functions using Matplotlib.
+
+Efficient Water Conservation – Prevents excessive watering and promotes sustainability.
+
+Installation 🚀
+
+Ensure you have Python installed (recommended version: 3.8+).
+
+1️⃣ Clone the Repository
+
  git clone https://github.com/yanetniguse/Automatic-Sprinkler-System.git
  cd Automatic-Sprinkler-System
-```
 
-### 2️⃣ Install Required Packages
-```sh
+2️⃣ Install Required Packages
+
  pip install -r requirements.txt
-```
 
-## Usage 💡
-Run the Python script to launch the **Smart Irrigation System**:
-```sh
+Usage 💡
+
+Run the Python script to launch the Smart Irrigation System:
+
  python smart_irrigation.py
-```
 
-## How It Works 🛠️
-1. **Input Environmental Factors**: Adjust sliders for **soil moisture, temperature, and humidity**.
-2. **Fuzzy Logic Processing**: The system evaluates input conditions using predefined fuzzy rules.
-3. **Output Recommendation**: Displays the **recommended watering level**.
-4. **Visualization**: Membership functions are plotted for better understanding.
+How It Works 🛠️
+
+Input Environmental Factors: Adjust sliders for soil moisture, temperature, and humidity.
+
+Fuzzy Logic Processing: The system evaluates input conditions using predefined fuzzy rules.
+
+Output Recommendation: Displays the recommended watering level.
+
+Visualization: Membership functions are plotted for better understanding.
 
 ## Example Fuzzy Rules 📏
 | Soil Moisture | Temperature | Humidity | Sprinkling Level |
