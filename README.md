@@ -52,7 +52,13 @@ Run the Python script to launch the **Smart Irrigation System**:
 ![image](https://github.com/user-attachments/assets/33bfb9b3-e99c-4baa-8c6d-13ccd224f251)
 ![image](https://github.com/user-attachments/assets/cb029e4f-0794-41bb-bd08-91118c4af0cf)
 
+### 👨‍💻 **Contributors**:
 
+- **James Otieno** - [@jayotieno](https://github.com/jayotieno)
+- **Yanet Niguse** - [@yanetniguse](https://github.com/yanetniguse)
+- **Dhruv Pokhariyal** - [@P0lcahontas](https://github.com/P0lcahontas)
+- **Kwame Lucheveli** - [@luche3002](https://github.com/luche3002)
+- 
 ## Contributing 🤝
 1. Fork the repo
 2. Create a feature branch (`git checkout -b feature-name`)
