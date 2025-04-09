@@ -5,14 +5,14 @@ from PyQt5.QtCore import Qt
 class IrrigationApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.initUI()# Initialize the user interface
     
     def initUI(self):
         # Set up the main window
         self.setWindowTitle('Smart Irrigation System')
         self.setGeometry(100, 100, 400, 300)
 
-        layout = QVBoxLayout()
+        layout = QVBoxLayout()#main layout for the application
         
         # Labels and sliders for soil moisture input
         self.soil_label = QLabel('Soil Moisture (%): 50')
@@ -21,7 +21,7 @@ class IrrigationApp(QWidget):
         self.soil_slider.setMinimum(0)
         self.soil_slider.setMaximum(100)
         self.soil_slider.setValue(50)
-        self.soil_slider.valueChanged.connect(self.update_soil)
+        self.soil_slider.valueChanged.connect(self.update_soil) #connect slider to update function
         layout.addWidget(self.soil_slider)
         
         # Labels and sliders for temperature input
