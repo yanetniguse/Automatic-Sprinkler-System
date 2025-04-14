@@ -2,10 +2,11 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QSlider, QPushButton
 from PyQt5.QtCore import Qt
 
+#Main application window for the Smart Irrigation System. It provides a user interface to simulate sensor inputs and get watering recommendations.
 class IrrigationApp(QWidget):
     def __init__(self):
         super().__init__()
-        self.initUI()# Initialize the user interface
+        self.initUI()
     
     def initUI(self):
         # Set up the main window
